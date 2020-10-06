@@ -1,5 +1,10 @@
 # Movie App
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d7b2b5d5-c8a6-42c2-bd02-c52e828af2f0/deploy-status)](https://app.netlify.com/sites/romfrancois-movie-app/deploys)
+
+<br>
+<br>
+
 After creating a vanilla js version of this [Movie App](https://github.com/romfrancois/10projects10hours/tree/main/movie-app) I thought I could reuse this example and move it to its TypeScript equivalent.
 
 <br>

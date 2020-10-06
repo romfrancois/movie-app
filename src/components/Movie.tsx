@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Movie } from '../types/Movie';
+import { Movie } from "../types/Movie";
 
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 
@@ -20,9 +20,11 @@ const MovieComponent = ({
     overview,
     vote_average,
 }: Movie) => {
-    const posterImg = poster_path ? IMGPATH + poster_path : 'https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1040&q=80';
-    
-    return  (
+    const posterImg = poster_path
+        ? IMGPATH + poster_path
+        : "https://images.unsplash.com/photo-1485846234645-a62644f84728?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1040&q=80";
+
+    return (
         <div className="movie">
             <img src={posterImg} alt={title} />
 
@@ -36,6 +38,7 @@ const MovieComponent = ({
                 <p>{overview}</p>
             </div>
         </div>
-    )};
+    );
+};
 
 export default MovieComponent;
